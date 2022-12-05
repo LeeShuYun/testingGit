@@ -63,6 +63,9 @@ public class Main {
             command = commandList[0];
 
             switch(command){
+                case "login":
+                    
+                break;
                 case "list":
                     for (Integer i = 0; i < shoppingCart.size(); i++ ){
                         System.out.printf("");
@@ -89,7 +92,7 @@ public class Main {
                     // adds all the units and prices together to give the total amount
                     Float totalPrice = unit * price of each item;
                     System.out.printf("The total price is %.2f.", totalPrice);
-
+                
             }
         }
     }
